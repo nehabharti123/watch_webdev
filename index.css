@@ -1,0 +1,47 @@
+#clockContainer{
+    position:relative;
+    margin:auto;
+    /*for putting in center */
+    border: 2px solid pink;
+    height: 40vw;
+    width: 40vw;
+    height: 440px;
+    width: 440px;
+    background: url(dial.png);
+    background-size: 100%;
+
+
+
+}
+#hour,#minute,#second{
+    position:absolute;
+    background:rgb(113, 31, 72);
+    border-radius:10px;
+    transform-origin: bottom;
+}
+#hour{
+width: 0.5%;
+height: 12%;
+top: 28%;
+left: 50.2%;
+opacity:0.8;
+
+}
+#minute{
+width: 0.5%;
+height: 15%;
+top: 25%;
+left: 50.2%;
+opacity:0.8;
+
+}
+
+#second{
+width: 0.5%;
+height: 17%;
+top:23%;
+left: 50.2%;
+opacity:0.8;
+
+
+}
